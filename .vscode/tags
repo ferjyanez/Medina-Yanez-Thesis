@@ -1,0 +1,348 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B	../neural-network/test.2(ann).py	/^B = tf.Variable(tf.zeros([y_var,y_var]))$/;"	kind:variable	line:21
+EEE	../neural-network/test.1(ann).py	/^EEE = $/;"	kind:variable	line:94
+Ip	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^Ip = np.eye(p)$/;"	kind:variable	line:100
+Ip	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^Ip = np.eye(p)$/;"	kind:variable	line:123
+Ip	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^Ip = np.eye(p)$/;"	kind:variable	line:99
+Ip	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^Ip = np.eye(p)$/;"	kind:variable	line:96
+Iq	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^Iq = np.eye(q)$/;"	kind:variable	line:101
+Iq	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^Iq = np.eye(q)$/;"	kind:variable	line:124
+Iq	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^Iq = np.eye(q)$/;"	kind:variable	line:100
+Iq	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^Iq = np.eye(q)$/;"	kind:variable	line:97
+M1	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M1 = np.kron(Y.transpose().dot(X), np.eye(p))$/;"	kind:variable	line:108
+M1	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M1 = np.kron(Y.transpose().dot(X), np.eye(p))$/;"	kind:variable	line:131
+M1	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M1 = np.kron(Y.transpose().dot(X), Ip)$/;"	kind:variable	line:107
+M1	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M1 = np.kron(Y.transpose().dot(X), Ip)$/;"	kind:variable	line:104
+M2	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M2 = vec_by_col(Ip).dot(vec_by_col(Iq).transpose())$/;"	kind:variable	line:110
+M2	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M2 = vec_by_col(Ip).dot(vec_by_col(Iq).transpose())$/;"	kind:variable	line:132
+M2	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M2 = vec_by_col(Ip).dot(vec_by_col(Iq).transpose())$/;"	kind:variable	line:108
+M2	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M2 = vec_by_col(Ip).dot(vec_by_col(Iq).transpose())$/;"	kind:variable	line:105
+M3	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M3 = per_matrix(p,q)$/;"	kind:variable	line:112
+M3	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M3 = per_matrix(p,q)$/;"	kind:variable	line:133
+M3	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M3 = per_matrix(p,q)$/;"	kind:variable	line:109
+M3	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M3 = per_matrix(p,q)$/;"	kind:variable	line:106
+M4	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M4 = np.kron(vec_by_col(Ip).transpose(), Ip)$/;"	kind:variable	line:114
+M4	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M4 = np.kron(vec_by_col(Ip).transpose(), Ip)$/;"	kind:variable	line:134
+M4	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M4 = np.kron(vec_by_col(Ip).transpose(), Ip)$/;"	kind:variable	line:110
+M4	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M4 = np.kron(vec_by_col(Ip).transpose(), Ip)$/;"	kind:variable	line:107
+M5	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M5 = np.kron(per_matrix(p,p),Ip).transpose()$/;"	kind:variable	line:116
+M5	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M5 = np.kron(per_matrix(p,p),Ip).transpose()$/;"	kind:variable	line:135
+M5	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M5 = np.kron(per_matrix(p,p),Ip).transpose()$/;"	kind:variable	line:111
+M5	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M5 = np.kron(per_matrix(p,p),Ip).transpose()$/;"	kind:variable	line:108
+M6	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M6 = np.kron(per_matrix(p,p),Iq)$/;"	kind:variable	line:118
+M6	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M6 = np.kron(per_matrix(p,p),Iq)$/;"	kind:variable	line:136
+M6	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M6 = np.kron(per_matrix(p,p),Iq)$/;"	kind:variable	line:112
+M6	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M6 = np.kron(per_matrix(p,p),Iq)$/;"	kind:variable	line:109
+M7	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M7 = np.kron(vec_by_col(Ip), Iq)$/;"	kind:variable	line:120
+M7	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M7 = np.kron(vec_by_col(Ip), Iq)$/;"	kind:variable	line:137
+M7	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M7 = np.kron(vec_by_col(Ip), Iq)$/;"	kind:variable	line:113
+M7	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M7 = np.kron(vec_by_col(Ip), Iq)$/;"	kind:variable	line:110
+M8	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M8 = np.kron(per_matrix(p,q),Iq)$/;"	kind:variable	line:122
+M8	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M8 = np.kron(per_matrix(p,q),Iq)$/;"	kind:variable	line:138
+M8	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M8 = np.kron(per_matrix(p,q),Iq)$/;"	kind:variable	line:114
+M8	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M8 = np.kron(per_matrix(p,q),Iq)$/;"	kind:variable	line:111
+M9	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^M9 = np.kron(Ip, per_matrix(p,q))$/;"	kind:variable	line:124
+M9	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^M9 = np.kron(Ip, per_matrix(p,q))$/;"	kind:variable	line:139
+M9	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^M9 = np.kron(Ip, per_matrix(p,q))$/;"	kind:variable	line:115
+M9	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^M9 = np.kron(Ip, per_matrix(p,q))$/;"	kind:variable	line:112
+RNA-MedinaYanezThesisTF.py	../neural-network/RNA-MedinaYanezThesisTF.py	1;"	kind:file	line:1
+RNA-TesisMedinaYanezv1.1.py	../neural-network/RNA-TesisMedinaYanezv1.1.py	1;"	kind:file	line:1
+RNA-TesisMedinaYanezv1.2.py	../neural-network/RNA-TesisMedinaYanezv1.2.py	1;"	kind:file	line:1
+RNA-TesisMedinaYanezv1.3.py	../neural-network/RNA-TesisMedinaYanezv1.3.py	1;"	kind:file	line:1
+RNA-TesisMedinaYanezv1.4.py	../neural-network/RNA-TesisMedinaYanezv1.4.py	1;"	kind:file	line:1
+W	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^            W = W - l_rate*(delta1 + (delta2 + delta3))$/;"	kind:variable	line:226
+W	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^W = np.random.normal(0, 0.01, p*q).reshape(p, q)$/;"	kind:variable	line:133
+W	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^            W = W - l_rate*(calibration_epsilon*delta1 + calibration_etha*(delta2 + delta3))$/;"	kind:variable	line:270
+W	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^W = np.random.normal(0, 0.1, p*q).reshape(p, q)$/;"	kind:variable	line:147
+W	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                    W = W2$/;"	kind:variable	line:280
+W	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^            W = W - l_rate*(calibration_epsilon*delta1 + calibration_etha*(delta2 + delta3))$/;"	kind:variable	line:260
+W	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^W = np.zeros(p*q).reshape(p, q)$/;"	kind:variable	line:124
+W	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                    W = W2$/;"	kind:variable	line:275
+W	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^            W = W - l_rate*(calibration_epsilon*delta1 + calibration_etha*(delta2 + delta3))$/;"	kind:variable	line:255
+W	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^W = np.zeros(p*q).reshape(p, q)$/;"	kind:variable	line:121
+W	../neural-network/test(lineal_model).py	/^W = tf.Variable([.3], dtype=tf.float64) #gets a tensor with the values$/;"	kind:variable	line:12
+W	../neural-network/test.1(ann).py	/^W = tf.Variable(tf.truncated_normal([x_var,y_var], stddev=0.01)) #gets a tensor with the values$/;"	kind:variable	line:42
+W	../neural-network/test.1(multiple_regression).py	/^W = tf.Variable([[.3], [.3]], dtype=tf.float32) #gets a tensor with the values$/;"	kind:variable	line:13
+W	../neural-network/test.2(ann).py	/^W = tf.Variable(tf.zeros([x_var,y_var])) #gets a tensor with the values$/;"	kind:variable	line:20
+W2	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                W2 = W - l_rate*(calibration_epsilon*delta1 + calibration_etha*(delta2 + delta3)) + decalibration$/;"	kind:variable	line:259
+W2	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                W2 = W - l_rate*(calibration_epsilon*delta1 + calibration_etha*(delta2 + delta3)) + decalibration$/;"	kind:variable	line:254
+W_	../neural-network/test.1(multiple_regression).py	/^  W_ = tf.constant((1.0), shape = [2,1])$/;"	kind:variable	line:46
+X	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^X = np.asmatrix(df_X)$/;"	kind:variable	line:73
+X	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^X = np.asmatrix(df_X, dtype = np.float32)$/;"	kind:variable	line:83
+X	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^X = np.asmatrix(df_X, dtype = np.float32)$/;"	kind:variable	line:84
+X	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^X = np.asmatrix(df_X, dtype = np.float32)$/;"	kind:variable	line:82
+X	../neural-network/test(lineal_model).py	/^X = tf.placeholder(tf.float64) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:19
+X	../neural-network/test.1(ann).py	/^X = tf.placeholder(tf.float32, [None,x_var]) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:39
+X	../neural-network/test.1(multiple_regression).py	/^X = tf.placeholder(tf.float32) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:20
+X	../neural-network/test.2(ann).py	/^X = tf.placeholder(tf.float32, [None,x_var]) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:17
+X_	../neural-network/test(lineal_model).py	/^X_ = [1,2,3,4] #initialize with the X data matrix$/;"	kind:variable	line:18
+X_matrix	../neural-network/test.1(ann).py	/^X_matrix = np.asmatrix(df_X)$/;"	kind:variable	line:31
+X_matrix	../neural-network/test.2(ann).py	/^X_matrix = np.delete(xy, 5, axis=1)$/;"	kind:variable	line:36
+X_val	../neural-network/test.1(multiple_regression).py	/^  X_val = tf.random_normal([1,2], mean=5, stddev=2.0)$/;"	kind:variable	line:45
+Y	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^Y = np.asmatrix(df_Y)$/;"	kind:variable	line:74
+Y	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^Y = np.asmatrix(df_Y, dtype = np.float32)$/;"	kind:variable	line:84
+Y	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^Y = np.asmatrix(df_Y, dtype = np.float32)$/;"	kind:variable	line:85
+Y	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^Y = np.asmatrix(df_Y, dtype = np.float32)$/;"	kind:variable	line:83
+Y	../neural-network/test(lineal_model).py	/^Y = tf.placeholder(tf.float64) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:22
+Y	../neural-network/test.1(ann).py	/^Y = tf.placeholder(tf.float32, [None,y_var]) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:40
+Y	../neural-network/test.1(multiple_regression).py	/^Y = tf.placeholder(tf.float32) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:23
+Y	../neural-network/test.2(ann).py	/^Y = tf.placeholder(tf.float32, [None,y_var]) #Inserts a placeholder for a tensor that will be always fed.$/;"	kind:variable	line:18
+Y_	../neural-network/test(lineal_model).py	/^Y_ = [0,-1,-2,-3] #initialize with the Y data matrix$/;"	kind:variable	line:21
+Y_matrix	../neural-network/test.1(ann).py	/^Y_matrix = np.asmatrix(df_Y)$/;"	kind:variable	line:32
+Y_matrix	../neural-network/test.2(ann).py	/^Y_matrix = np.delete(xy, np.s_[0:5], axis=1)$/;"	kind:variable	line:37
+Y_val	../neural-network/test.1(multiple_regression).py	/^  Y_val = tf.add(tf.matmul(X_val, W_), 2)$/;"	kind:variable	line:47
+Ycalc	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^            Ycalc = X[j].dot(W.dot(W.transpose().dot(X.transpose().dot(Y))))$/;"	kind:variable	line:147
+Ycalc	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^            Ycalc = X[j].dot(W.dot(W.transpose().dot(X.transpose().dot(Y))))$/;"	kind:variable	line:175
+Ycalc	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^            Ycalc = X[j].dot(W).dot(W.transpose()).dot(X.transpose()).dot(Y)$/;"	kind:variable	line:160
+Ycalc	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^            Ycalc = X[j].dot(W).dot(W.transpose()).dot(X.transpose()).dot(Y)$/;"	kind:variable	line:157
+aux	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                    aux = False$/;"	kind:variable	line:203
+aux	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^aux = True$/;"	kind:variable	line:153
+aux	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                    aux = False$/;"	kind:variable	line:187
+aux	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^aux = True$/;"	kind:variable	line:138
+aux	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                    aux = False$/;"	kind:variable	line:182
+aux	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^aux = True$/;"	kind:variable	line:135
+aux	../neural-network/test.2(ann).py	/^aux = tf.matmul(X, W)$/;"	kind:variable	line:50
+aux_e	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^            aux_e = e.dot(e.transpose())$/;"	kind:variable	line:184
+aux_e	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^            aux_e = e.transpose().dot(e)$/;"	kind:variable	line:169
+aux_errors	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^            aux_errors = np.sum(np.square(e))$/;"	kind:variable	line:151
+aux_errors	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^            aux_errors = np.sum(aux_e)$/;"	kind:variable	line:185
+aux_errors	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^            aux_errors = np.sum(aux_e)$/;"	kind:variable	line:170
+aux_errors	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^            aux_errors = np.sum(e.transpose().dot(e))$/;"	kind:variable	line:165
+ax	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^ax = sns.tsplot(data = vec_by_col(W))$/;"	kind:variable	line:294
+ax1	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^ax1 = plt.subplot(2, 1, 1)$/;"	kind:variable	line:324
+ax1	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^ax1 = plt.subplot(2, 1, 1)$/;"	kind:variable	line:326
+ax2	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^ax2 = plt.subplot(2, 1, 2)$/;"	kind:variable	line:327
+ax2	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^ax2 = plt.subplot(2, 1, 2)$/;"	kind:variable	line:329
+b	../neural-network/test(lineal_model).py	/^b = tf.Variable([-.3], dtype=tf.float64)$/;"	kind:variable	line:14
+b	../neural-network/test.1(multiple_regression).py	/^b = tf.Variable([-.3], dtype=tf.float32)$/;"	kind:variable	line:15
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^            c_errors = c_errors + np.sqrt(aux_errors)$/;"	kind:variable	line:152
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^    c_errors = 0$/;"	kind:variable	line:140
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^            c_errors = c_errors + aux_errors$/;"	kind:variable	line:186
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^        c_errors = 0        $/;"	kind:variable	line:172
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^    c_errors = 0$/;"	kind:variable	line:167
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^            c_errors = c_errors + aux_errors$/;"	kind:variable	line:171
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^        c_errors = 0        $/;"	kind:variable	line:157
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^    c_errors = 0$/;"	kind:variable	line:152
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^            c_errors = c_errors + aux_errors$/;"	kind:variable	line:166
+c_errors	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^    c_errors = 0$/;"	kind:variable	line:150
+calibration	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^calibration = 0.60$/;"	kind:variable	line:44
+calibration	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^calibration = 1.90$/;"	kind:variable	line:52
+calibration_epsilon	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^calibration_epsilon = 1.0$/;"	kind:variable	line:50
+calibration_epsilon	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^calibration_epsilon = 1.0$/;"	kind:variable	line:51
+calibration_epsilon	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^calibration_epsilon = 1.0$/;"	kind:variable	line:51
+calibration_etha	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^calibration_etha = 8.0$/;"	kind:variable	line:51
+calibration_etha	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^calibration_etha = 5.0$/;"	kind:variable	line:52
+calibration_etha	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^calibration_etha = 5.0$/;"	kind:variable	line:52
+changed	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^changed = "calibration_etha"$/;"	kind:variable	line:53
+changed	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^changed = "epochs"$/;"	kind:variable	line:54
+changed	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^changed = "epochs"$/;"	kind:variable	line:54
+contError	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^                contError = contError + 1$/;"	kind:variable	line:169
+contError	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^        contError = 0        $/;"	kind:variable	line:144
+contError	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^contError = 1$/;"	kind:variable	line:137
+contError	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                contError = contError + 1$/;"	kind:variable	line:211
+contError	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^        contError = 0$/;"	kind:variable	line:171
+contError	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^contError = 1$/;"	kind:variable	line:160
+contError	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                contError = contError + 1$/;"	kind:variable	line:195
+contError	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^        contError = 0$/;"	kind:variable	line:156
+contError	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^contError = 1$/;"	kind:variable	line:142
+contError	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                contError = contError + 1$/;"	kind:variable	line:190
+contError	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^        contError = 0    $/;"	kind:variable	line:154
+contError	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^contError = 1$/;"	kind:variable	line:139
+cost	../neural-network/test.1(multiple_regression).py	/^cost = tf.square(Y - lineal_model)$/;"	kind:variable	line:31
+cost	../neural-network/test.2(ann).py	/^cost = tf.square(Y - mmr_model)$/;"	kind:variable	line:54
+cost0	../neural-network/test.1(ann).py	/^cost0 = tf.square(Y - model) #subtracts element-wise the vector and the elevates them to the 2nd power$/;"	kind:variable	line:52
+cost1	../neural-network/test.1(ann).py	/^cost1 = tf.reduce_sum(cost0)$/;"	kind:variable	line:53
+cost2	../neural-network/test.1(ann).py	/^cost2 = 0$/;"	kind:variable	line:54
+dacay_rate	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^dacay_rate = 1$/;"	kind:variable	line:47
+dacay_rate	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^dacay_rate = 1$/;"	kind:variable	line:44
+dacay_rate	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^dacay_rate = 1$/;"	kind:variable	line:44
+decalibration	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^    decalibration = np.random.normal(0, 0.01, p*q).reshape((p,q))$/;"	kind:variable	line:146
+decalibration	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^    decalibration = np.random.normal(0, 0.01, p*q).reshape((p,q))$/;"	kind:variable	line:142
+delta1	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^                delta1 = -np.kron(2*e,Ip).transpose().dot($/;"	kind:variable	line:171
+delta1	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^                delta1 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:163
+delta1	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                delta1 = -np.kron(2*e,Ip).transpose().dot($/;"	kind:variable	line:213
+delta1	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                delta1 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:199
+delta1	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                delta1 = -np.kron(2*e,Ip).transpose().dot($/;"	kind:variable	line:197
+delta1	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                delta1 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:183
+delta1	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                delta1 = -np.kron(2*e,Ip).transpose().dot($/;"	kind:variable	line:192
+delta1	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                delta1 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:178
+delta2	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^                delta2 = M4.dot($/;"	kind:variable	line:183
+delta2	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^                delta2 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:164
+delta2	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                delta2 = M4.dot($/;"	kind:variable	line:225
+delta2	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                delta2 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:200
+delta2	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                delta2 = M4.dot($/;"	kind:variable	line:208
+delta2	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                delta2 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:184
+delta2	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                delta2 = M4.dot($/;"	kind:variable	line:203
+delta2	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                delta2 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:179
+delta3	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^                delta3 = -2*($/;"	kind:variable	line:208
+delta3	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^                delta3 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:165
+delta3	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                delta3 = -2*($/;"	kind:variable	line:250
+delta3	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^                delta3 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:201
+delta3	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                delta3 = -2*($/;"	kind:variable	line:238
+delta3	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^                delta3 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:185
+delta3	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                delta3 = -2*($/;"	kind:variable	line:233
+delta3	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^                delta3 = np.zeros(p*q).reshape((p,q))$/;"	kind:variable	line:180
+df	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^df = df.drop(df.columns[[0]], axis=1)$/;"	kind:variable	line:66
+df	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^df = df.drop(df.index[0])$/;"	kind:variable	line:68
+df	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^df = df[:51]$/;"	kind:variable	line:67
+df	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^df = pd.DataFrame(ws.values)$/;"	kind:variable	line:59
+df	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^df = df.drop(df.columns[[0]], axis=1)$/;"	kind:variable	line:76
+df	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^df = df.drop(df.index[0])$/;"	kind:variable	line:78
+df	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^df = df[:201]$/;"	kind:variable	line:77
+df	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^df = pd.DataFrame(ws.values)$/;"	kind:variable	line:69
+df	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^df = df.drop(df.columns[[0]], axis=1)$/;"	kind:variable	line:77
+df	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^df = df.drop(df.index[0])$/;"	kind:variable	line:79
+df	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^df = df[:201]$/;"	kind:variable	line:78
+df	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^df = pd.DataFrame(ws.values)$/;"	kind:variable	line:70
+df	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^df = df.drop(df.columns[[0]], axis=1)$/;"	kind:variable	line:75
+df	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^df = df.drop(df.index[0])$/;"	kind:variable	line:77
+df	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^df = df[:201]$/;"	kind:variable	line:76
+df	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^df = pd.DataFrame(ws.values)$/;"	kind:variable	line:68
+df	../neural-network/test.1(ann).py	/^df = df.drop(df.columns[[0]], axis=1)$/;"	kind:variable	line:21
+df	../neural-network/test.1(ann).py	/^df = df.drop(df.index[0])$/;"	kind:variable	line:23
+df	../neural-network/test.1(ann).py	/^df = df[:201]$/;"	kind:variable	line:22
+df	../neural-network/test.1(ann).py	/^df = pd.DataFrame(ws.values)$/;"	kind:variable	line:19
+df_X	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^df_X = df.drop(df.columns[[3, 4]], axis=1)$/;"	kind:variable	line:70
+df_X	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^df_X = df.drop(df.columns[[4, 5]], axis=1)$/;"	kind:variable	line:80
+df_X	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^df_X = df.drop(df.columns[[4, 5]], axis=1)$/;"	kind:variable	line:81
+df_X	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^df_X = df.drop(df.columns[[4, 5]], axis=1)$/;"	kind:variable	line:79
+df_X	../neural-network/test.1(ann).py	/^df_X = df.drop(df.columns[[4, 5]], axis=1)$/;"	kind:variable	line:25
+df_Y	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^df_Y = df.drop(df.columns[[0, 1, 2]], axis=1)$/;"	kind:variable	line:71
+df_Y	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^df_Y = df.drop(df.columns[[0, 1, 2, 3]], axis=1)$/;"	kind:variable	line:81
+df_Y	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^df_Y = df.drop(df.columns[[0, 1, 2, 3]], axis=1)$/;"	kind:variable	line:82
+df_Y	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^df_Y = df.drop(df.columns[[0, 1, 2, 3]], axis=1)$/;"	kind:variable	line:80
+df_Y	../neural-network/test.1(ann).py	/^df_Y = df.drop(df.columns[[0, 1, 2, 3]], axis=1)$/;"	kind:variable	line:26
+duration	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^duration = 1  # second$/;"	kind:variable	line:19
+duration	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^duration = 1  # second$/;"	kind:variable	line:23
+duration	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^duration = 1  # second$/;"	kind:variable	line:20
+duration	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^duration = 1  # second$/;"	kind:variable	line:20
+duration	../neural-network/test.1(ann).py	/^duration = 1  # second$/;"	kind:variable	line:9
+e	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^            e = (Ycalc - Y[j]).transpose()$/;"	kind:variable	line:149
+e	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^            e = (Ycalc - Y[j]).transpose()$/;"	kind:variable	line:177
+e	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^            e = (Ycalc - Y[j]).transpose()$/;"	kind:variable	line:162
+e	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^            e = (Y[j] - Ycalc).transpose()$/;"	kind:variable	line:159
+epochs	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^epochs = 1000$/;"	kind:variable	line:47
+epochs	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^epochs = 5$/;"	kind:variable	line:56
+epochs	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^epochs = 1000$/;"	kind:variable	line:57
+epochs	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^epochs = 100$/;"	kind:variable	line:57
+epochs	../neural-network/test(lineal_model).py	/^epochs = 20000$/;"	kind:variable	line:9
+epochs	../neural-network/test.1(ann).py	/^epochs = 100$/;"	kind:variable	line:14
+epochs	../neural-network/test.1(multiple_regression).py	/^epochs = 3000$/;"	kind:variable	line:10
+epochs	../neural-network/test.2(ann).py	/^epochs = 500$/;"	kind:variable	line:10
+epsilon_break	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^epsilon_break = 0.5$/;"	kind:variable	line:48
+epsilon_break	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^epsilon_break = 0.5$/;"	kind:variable	line:48
+errors	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^errors = []$/;"	kind:variable	line:136
+errors	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^errors = []$/;"	kind:variable	line:157
+errors	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^errors = []$/;"	kind:variable	line:140
+errors	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^errors = []$/;"	kind:variable	line:137
+errors	../neural-network/test.1(multiple_regression).py	/^errors = []$/;"	kind:variable	line:38
+errors	../neural-network/test.2(ann).py	/^errors = []$/;"	kind:variable	line:61
+errors2	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^errors2 = []$/;"	kind:variable	line:158
+errors2	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^errors2 = []$/;"	kind:variable	line:141
+errors2	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^errors2 = []$/;"	kind:variable	line:138
+errors_e	../neural-network/test.1(ann).py	/^errors_e = []$/;"	kind:variable	line:73
+errors_n	../neural-network/test.1(ann).py	/^errors_n = []$/;"	kind:variable	line:74
+freq	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^freq = 440  # Hz$/;"	kind:variable	line:20
+freq	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^freq = 440  # Hz$/;"	kind:variable	line:24
+freq	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^freq = 440  # Hz$/;"	kind:variable	line:21
+freq	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^freq = 440  # Hz$/;"	kind:variable	line:21
+freq	../neural-network/test.1(ann).py	/^freq = 440  # Hz$/;"	kind:variable	line:10
+func	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^func = "decay"$/;"	kind:variable	line:45
+func	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^func = "decay"$/;"	kind:variable	line:45
+global_step	../neural-network/test.1(ann).py	/^global_step = tf.Variable(0, trainable=False)$/;"	kind:variable	line:68
+i	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^            i = epochs$/;"	kind:variable	line:289
+i	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^            i = epochs$/;"	kind:variable	line:284
+init	../neural-network/test(lineal_model).py	/^init = tf.global_variables_initializer()$/;"	kind:variable	line:37
+init	../neural-network/test.1(ann).py	/^init = tf.global_variables_initializer()$/;"	kind:variable	line:78
+init	../neural-network/test.1(multiple_regression).py	/^init = tf.global_variables_initializer()$/;"	kind:variable	line:41
+init	../neural-network/test.2(ann).py	/^init = tf.global_variables_initializer()$/;"	kind:variable	line:65
+l_rate	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^l_rate = 0.000001$/;"	kind:variable	line:41
+l_rate	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^    l_rate = l_rate_0\/((1+dacay_rate)*i)$/;"	kind:variable	line:163
+l_rate	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^    l_rate = l_rate_0\/((1+dacay_rate)*i)$/;"	kind:variable	line:148
+l_rate	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^    l_rate = l_rate_0$/;"	kind:variable	line:143
+l_rate	../neural-network/test(lineal_model).py	/^l_rate = 0.01$/;"	kind:variable	line:8
+l_rate	../neural-network/test.1(multiple_regression).py	/^l_rate = 0.01$/;"	kind:variable	line:9
+l_rate	../neural-network/test.2(ann).py	/^l_rate = 0.00001$/;"	kind:variable	line:9
+l_rate_0	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^l_rate_0 = 0.002$/;"	kind:variable	line:46
+l_rate_0	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^l_rate_0 = 0.01$/;"	kind:variable	line:43
+l_rate_0	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^l_rate_0 = 0.001$/;"	kind:variable	line:43
+l_rate_0	../neural-network/test.1(ann).py	/^l_rate_0 = 0.001$/;"	kind:variable	line:13
+lineal_model	../neural-network/test(lineal_model).py	/^lineal_model = X*W+b$/;"	kind:variable	line:27
+lineal_model	../neural-network/test.1(multiple_regression).py	/^lineal_model = tf.add(tf.matmul(X,W), b)$/;"	kind:variable	line:28
+loss	../neural-network/test(lineal_model).py	/^loss = tf.reduce_sum(tf.square(lineal_model - Y))$/;"	kind:variable	line:30
+loss	../neural-network/test.1(ann).py	/^loss = tf.add(cost1,cost2)  #adds all of the elements plus the error for normalization$/;"	kind:variable	line:56
+loss	../neural-network/test.1(multiple_regression).py	/^loss = tf.reduce_sum(cost)$/;"	kind:variable	line:32
+loss	../neural-network/test.2(ann).py	/^loss = tf.reduce_sum(cost)$/;"	kind:variable	line:55
+loss2	../neural-network/test.1(ann).py	/^loss2 = tf.trace(tf.matmul(tf.transpose(W),tf.matmul(tf.transpose(X),tf.matmul(Y, tf.matmul(tf.transpose(Y),tf.matmul(X,W))))))$/;"	kind:variable	line:58
+mean_soft	../neural-network/test.2(ann).py	/^mean_soft = 50$/;"	kind:variable	line:11
+mmr_model	../neural-network/test.2(ann).py	/^mmr_model = tf.matmul(aux, B)$/;"	kind:variable	line:51
+model	../neural-network/test.1(ann).py	/^model = tf.matmul(tf.matmul(tf.matmul(tf.matmul(X,W),tf.transpose(W)),tf.transpose(X)),Y) #Y estimada$/;"	kind:variable	line:44
+n	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^n = X.shape[0] #n_ind$/;"	kind:variable	line:97
+n	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^n = X.shape[0] #n_ind$/;"	kind:variable	line:120
+n	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^n = X.shape[0] #n_ind$/;"	kind:variable	line:96
+n	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^n = X.shape[0] #n_ind$/;"	kind:variable	line:93
+n_ind	../neural-network/test.1(ann).py	/^n_ind = X_matrix.shape[0] #n_ind$/;"	kind:variable	line:37
+n_ind	../neural-network/test.2(ann).py	/^n_ind = 1503$/;"	kind:variable	line:15
+optimizer	../neural-network/test(lineal_model).py	/^optimizer = tf.train.GradientDescentOptimizer(l_rate)$/;"	kind:variable	line:33
+optimizer	../neural-network/test.1(ann).py	/^optimizer = tf.train.GradientDescentOptimizer(l_rate_0)$/;"	kind:variable	line:70
+optimizer	../neural-network/test.1(multiple_regression).py	/^optimizer = tf.train.GradientDescentOptimizer(l_rate)$/;"	kind:variable	line:35
+optimizer	../neural-network/test.2(ann).py	/^optimizer = tf.train.GradientDescentOptimizer(l_rate)$/;"	kind:variable	line:58
+p	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^p = X.shape[1] #x_var$/;"	kind:variable	line:95
+p	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^p = X.shape[1] #x_var$/;"	kind:variable	line:118
+p	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^p = X.shape[1] #x_var$/;"	kind:variable	line:94
+p	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^p = X.shape[1] #x_var$/;"	kind:variable	line:91
+per_matrix	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^def per_matrix(m_, n_):$/;"	kind:function	line:28
+per_matrix	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^def per_matrix(m_, n_):$/;"	kind:function	line:32
+per_matrix	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^def per_matrix(m_, n_):$/;"	kind:function	line:29
+per_matrix	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^def per_matrix(m_, n_):$/;"	kind:function	line:29
+percentiles	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^percentiles = np.zeros(5).reshape((1,5))$/;"	kind:variable	line:287
+q	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^q = Y.shape[1] #y_var$/;"	kind:variable	line:96
+q	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^q = Y.shape[1] #y_var$/;"	kind:variable	line:119
+q	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^q = Y.shape[1] #y_var$/;"	kind:variable	line:95
+q	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^q = Y.shape[1] #y_var$/;"	kind:variable	line:92
+sess	../neural-network/test(lineal_model).py	/^sess = tf.Session()$/;"	kind:variable	line:38
+sess	../neural-network/test.1(ann).py	/^sess = tf.Session()$/;"	kind:variable	line:79
+sess	../neural-network/test.1(multiple_regression).py	/^sess = tf.Session()$/;"	kind:variable	line:42
+sess	../neural-network/test.2(ann).py	/^sess = tf.Session()$/;"	kind:variable	line:66
+test(lineal_model).py	../neural-network/test(lineal_model).py	1;"	kind:file	line:1
+test.1(ann).py	../neural-network/test.1(ann).py	1;"	kind:file	line:1
+test.1(multiple_regression).py	../neural-network/test.1(multiple_regression).py	1;"	kind:file	line:1
+test.2(ann).py	../neural-network/test.2(ann).py	1;"	kind:file	line:1
+test.2.py	../neural-network/test.2.py	1;"	kind:file	line:1
+train	../neural-network/test(lineal_model).py	/^train = optimizer.minimize(loss)$/;"	kind:variable	line:34
+train	../neural-network/test.1(ann).py	/^train = optimizer.minimize(loss)$/;"	kind:variable	line:71
+train	../neural-network/test.1(multiple_regression).py	/^train = optimizer.minimize(loss)$/;"	kind:variable	line:36
+train	../neural-network/test.2(ann).py	/^train = optimizer.minimize(loss)$/;"	kind:variable	line:59
+vec_by_col	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^def vec_by_col(X_):$/;"	kind:function	line:25
+vec_by_col	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^def vec_by_col(X_):$/;"	kind:function	line:29
+vec_by_col	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^def vec_by_col(X_):$/;"	kind:function	line:26
+vec_by_col	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^def vec_by_col(X_):$/;"	kind:function	line:26
+wb	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^wb = oxl.Workbook()$/;"	kind:variable	line:55
+wb	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^wb = oxl.load_workbook('\/home\/ferjyanez\/Documents\/Tesis\/Medina-Yanez-Thesis\/data\/datosfer.xlsx')$/;"	kind:variable	line:56
+wb	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^wb = oxl.Workbook()$/;"	kind:variable	line:64
+wb	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^wb = oxl.load_workbook('\/home\/ferjyanez\/Documents\/Tesis\/Medina-Yanez-Thesis\/data\/MyData.xlsx')$/;"	kind:variable	line:65
+wb	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^wb = oxl.Workbook()$/;"	kind:variable	line:65
+wb	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^wb = oxl.load_workbook('\/home\/ferjyanez\/Documents\/Tesis\/Medina-Yanez-Thesis\/data\/MyData.xlsx')$/;"	kind:variable	line:66
+wb	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^wb = oxl.Workbook()$/;"	kind:variable	line:65
+wb	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^wb = oxl.load_workbook('\/home\/ferjyanez\/Documents\/Tesis\/Medina-Yanez-Thesis\/data\/MyData.xlsx')$/;"	kind:variable	line:66
+wb	../neural-network/test.1(ann).py	/^wb = oxl.Workbook()$/;"	kind:variable	line:16
+wb	../neural-network/test.1(ann).py	/^wb = oxl.load_workbook('\/home\/ferjyanez\/Documents\/Tesis\/Medina-Yanez-Thesis\/data\/MyData.xlsx')$/;"	kind:variable	line:17
+weights	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^weights = []$/;"	kind:variable	line:159
+ws	../neural-network/RNA-TesisMedinaYanezv1.1.py	/^ws = wb.active$/;"	kind:variable	line:58
+ws	../neural-network/RNA-TesisMedinaYanezv1.2.py	/^ws = wb.active$/;"	kind:variable	line:68
+ws	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^ws = wb.active$/;"	kind:variable	line:69
+ws	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^ws = wb.active$/;"	kind:variable	line:67
+ws	../neural-network/test.1(ann).py	/^ws = wb.active$/;"	kind:variable	line:18
+x_plot	../neural-network/RNA-TesisMedinaYanezv1.3.py	/^x_plot = list(range(len(errors)))$/;"	kind:variable	line:323
+x_plot	../neural-network/RNA-TesisMedinaYanezv1.4.py	/^x_plot = list(range(len(errors)))$/;"	kind:variable	line:325
+x_var	../neural-network/test.1(ann).py	/^x_var = X_matrix.shape[1] #x_var$/;"	kind:variable	line:35
+x_var	../neural-network/test.2(ann).py	/^x_var = 5 #img-size$/;"	kind:variable	line:13
+xy	../neural-network/test.2(ann).py	/^xy = np.loadtxt('https:\/\/archive.ics.uci.edu\/ml\/machine-learning-databases\/00291\/airfoil_self_noise.dat')$/;"	kind:variable	line:34
+xy	../neural-network/test.2.py	/^xy = np.loadtxt('https:\/\/archive.ics.uci.edu\/ml\/machine-learning-databases\/00291\/airfoil_self_noise.dat')$/;"	kind:variable	line:20
+y_var	../neural-network/test.1(ann).py	/^y_var = Y_matrix.shape[1] #y_var$/;"	kind:variable	line:36
+y_var	../neural-network/test.2(ann).py	/^y_var = 1 #NUM_CLASSES$/;"	kind:variable	line:14
