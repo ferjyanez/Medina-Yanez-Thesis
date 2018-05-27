@@ -16,9 +16,9 @@ freq = 440  # Hz
 
 #initial variables 
 l_rate_0 = 0.001
-epochs = 1000
+epochs = 5000
 
-opcion = 1
+opcion = 6
 
 wb = oxl.Workbook()
 if(opcion == 1):
@@ -132,35 +132,42 @@ W_1 = tf.Variable(tf.truncated_normal([x_var,1], stddev=0.01)) #gets a tensor wi
 W_2 = tf.Variable(tf.truncated_normal([x_var,1], stddev=0.01)) #gets a tensor with the values
 W = tf.Variable(tf.truncated_normal([x_var,2], stddev=0.01)) #gets a tensor with the values
 
-model1 = tf.matmul(tf.matmul(tf.matmul(tf.matmul(X,W_1),tf.transpose(W_1)),tf.transpose(X)),Y) #Y estimada
 
 #Cost function
+
+
+model1 = tf.matmul(tf.matmul(tf.matmul(tf.matmul(X,W_1),tf.transpose(W_1)),tf.transpose(X)),Y) #Y estimada
 cost1_0 = tf.square(Y - model1) #subtracts element-wise the vector and the elevates them to the 2nd power
 cost1_1 = tf.reduce_sum(cost1_0)
 
-model2 = tf.matmul(tf.matmul(tf.matmul(tf.matmul(X,W_2),tf.transpose(W_2)),tf.transpose(X)),Y)
-cost2_0 = tf.square(Y - model2) 
-cost2_1 = tf.reduce_sum(cost2_0)
+cost2 = 10*tf.square(tf.reduce_sum(tf.multiply(W_1,W_2)))
+
+cost2_1 = 0 
 
 def f_W(X1, X2, X3):
   X1[:,0].assign(X2)
   X1[:,1].assign(X3)
   return X1
 
-""" W = f_W(W, W_1, W_2)
+#W = f_W(W, W_1, W_2)
 
-model3 = tf.matmul(tf.matmul(tf.matmul(tf.matmul(X,W),tf.transpose(W)),tf.transpose(X)),Y)
-cost3_0 = tf.square(Y - model3) 
-cost3_1 = tf.reduce_sum(cost3_0) """
-
+#model3 = tf.matmul(tf.matmul(tf.matmul(tf.matmul(X,f_W(W, W_1, W_2)),tf.transpose(f_W(W, W_1, W_2))),tf.transpose(X)),Y)
+#cost3_0 = tf.square(Y - model3) 
+#cost3_1 = 70*tf.reduce_sum(cost3_0)
+cost3_1 = 0
 
 #cost3 = 0
 
 
-cost2 = tf.trace(tf.matmul(tf.transpose(tf.subtract(tf.matmul(tf.transpose(W_1),W_2),tf.eye(y_var))),tf.subtract(tf.matmul(tf.transpose(W_1),W_2),tf.eye(y_var))))
-                   
+#cost2 = tf.trace(tf.matmul(tf.transpose(tf.subtract(tf.matmul(tf.transpose(W_1),W_2),tf.eye(1))),tf.subtract(tf.matmul(tf.transpose(W_1),W_2),tf.eye(1))))
+#cost2 = tf.reduce_sum(tf.square(tf.matmul(tf.transpose(W_1),W_2)-1))                  
 
-loss = tf.add(tf.add(cost1_1, cost2_1),cost2)
+
+
+#cost4 = tf.trace(tf.matmul(tf.transpose(tf.subtract(tf.matmul(tf.transpose(f_W(W, W_1, W_2)),f_W(W, W_1, W_2)),tf.eye(y_var))),tf.subtract(tf.matmul(tf.transpose(f_W(W, W_1, W_2)),f_W(W, W_1, W_2)),tf.eye(y_var))))
+cost4 = 0
+
+loss = tf.add(tf.add(tf.add(tf.add(cost1_1, cost2), cost2_1),cost4), cost3_1)
 
 #Optimizer
 #global_step = tf.Variable(0, trainable=False)
@@ -182,12 +189,16 @@ for i in range(epochs):
 
 #Get results
 
-final_W1, final_W2, loss_eu = sess.run([W_1, W_2, loss], {X:X_matrix, Y:Y_matrix})
+final_W1, final_W2, loss_eu, cost_2 = sess.run([W_1, W_2, loss, cost2], {X:X_matrix, Y:Y_matrix})
 
+final_W1 = final_W1/(np.sqrt(final_W1.transpose().dot(final_W1)))
+final_W2 = final_W2/(np.sqrt(final_W2.transpose().dot(final_W2)))
 
 final_W = np.zeros((x_var,2)).reshape(x_var,2)
-final_W[:,0] = np.asarray(final_W1[0])
-final_W[:,1] = np.asarray(final_W2[0])
+final_W[0,0] = np.asarray(final_W1[0])
+final_W[1,0] = np.asarray(final_W1[1])
+final_W[0,1] = np.asarray(final_W2[0])
+final_W[1,1] = np.asarray(final_W2[1])
 
 print("W:")
 print(final_W)
@@ -198,9 +209,15 @@ print("")
 print("W2:")
 print(final_W2)
 print("")
+print("cost_2: %s"%(cost_2))
 print("loss: %s"%(loss_eu/n_ind))
-print(np.trace(final_W.transpose().dot(X_matrix.transpose()).dot(Y_matrix).dot(Y_matrix.transpose()).dot(X_matrix).dot(final_W)))
+print("IR: %s"%np.trace(final_W.transpose().dot(X_matrix.transpose()).dot(Y_matrix).dot(Y_matrix.transpose()).dot(X_matrix).dot(final_W)))
+print("")
+print("Wt W:")
 print(final_W.transpose().dot(final_W))
+print("")
+print("W1t W2:")
+print(final_W1.transpose().dot(final_W2))
 
 sess.close()
 
@@ -219,9 +236,11 @@ print("")
 print(final_W)
 print("")
 #print("")
-#print(X_matrix.transpose().dot(Y_matrix).dot(Y_matrix.transpose()).dot(X_matrix).dot(W_AR[:,0])/W_AR[:,0])
-#print("")
+print(X_matrix.transpose().dot(Y_matrix).dot(Y_matrix.transpose()).dot(X_matrix).dot(W_AR[:,0])/W_AR[:,0])
+print(X_matrix.transpose().dot(Y_matrix).dot(Y_matrix.transpose()).dot(X_matrix).dot(W_AR[:,1])/W_AR[:,1])
+print("")
 print(X_matrix.transpose().dot(Y_matrix).dot(Y_matrix.transpose()).dot(X_matrix).dot(final_W[:,0])/final_W[:,0])
+print(X_matrix.transpose().dot(Y_matrix).dot(Y_matrix.transpose()).dot(X_matrix).dot(final_W[:,1])/final_W[:,1])
 
 #plt.subplot(1,1,1)
 plt.plot(np.asarray(errors_e))
