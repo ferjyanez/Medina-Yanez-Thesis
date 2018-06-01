@@ -1,2 +1,3 @@
 # Medina-Yanez-Thesis
-Implementation of a Neural Network in order to perform as Redundancy Analysis.
+
+In the current technological context, given the growing boom of Artificial Neural Nets and the use of multivariate statistical techniques  to analyze massive data, a question arises whether it is possible to model some of such techniques using this type of artificial intelligence. Van den Wollenberg's Redundancy Analysis (1977) is one of these multivariate techniques. The present work proposes and implements the architecture of a network that emulates this multivariate analysis, given the orthonormality condition in the data set of the dependent variables. After defining the theoretical integration of both models, the equivalence of both techniques is exemplified by applying Redundancy Analysis to data samples and comparing the results with those thrown by the Artificial Neural Net.
