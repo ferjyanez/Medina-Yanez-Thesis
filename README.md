@@ -1,2 +1,2 @@
 # Medina-Yanez-Thesis
-Implementation of a Neural Network in order to perform as Redundancy Analysis.
+Implementation of a Neural Network in order to perform Redundancy Analysis.
